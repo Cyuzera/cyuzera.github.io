@@ -102,7 +102,7 @@
         It is currently 13% complete!
       </h3>
       
-      <a href="inglix.html">Inglix Progress</a>
+      <a class="b" href="inglix.html">Inglix Progress</a>
     </center>
   </body>
 </html>
