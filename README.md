@@ -115,7 +115,6 @@
         to learn the Futurese language, as it is the future of English.<br><br>
         It is currently 13% complete!
       </h3>
-      
       <a class="b" href="inglix.html">Inglix Progress</a>
     </center>
   </body>
