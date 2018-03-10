@@ -10,7 +10,7 @@
       font-style: normal;
     }
     
-    @font-face {
+   @font-face {
       font-family: 'museo-sans-rounded';
       src: url('https://d7mj4aqfscim2.cloudfront.net/proxy/fonts/museo/museosansrounded-300-webfont.eot');
       src: url('https://d7mj4aqfscim2.cloudfront.net/proxy/fonts/museo/museosansrounded-300-webfont.eot?#iefix') format('embedded-opentype'), url('https://d7mj4aqfscim2.cloudfront.net/proxy/fonts/museo/museosansrounded-300-webfont.woff2') format('woff2'), url('https://d7mj4aqfscim2.cloudfront.net/proxy/fonts/museo/museosansrounded-300-webfont.woff') format('woff'), url('https://d7mj4aqfscim2.cloudfront.net/proxy/fonts/museo/museosansrounded-300-webfont.svg#museo_sans_rounded300') format('svg');
@@ -18,7 +18,7 @@
       font-style: normal;
     }
     
-    @font-face {
+   @font-face {
       font-family: 'museo-sans-rounded';
       src: url('https://d7mj4aqfscim2.cloudfront.net/proxy/fonts/museo/museosansrounded-500-webfont.eot');
       src: url('https://d7mj4aqfscim2.cloudfront.net/proxy/fonts/museo/museosansrounded-500-webfont.eot?#iefix') format('embedded-opentype'), url('https://d7mj4aqfscim2.cloudfront.net/proxy/fonts/museo/museosansrounded-500-webfont.woff2') format('woff2'), url('https://d7mj4aqfscim2.cloudfront.net/proxy/fonts/museo/museosansrounded-500-webfont.woff') format('woff'), url('https://d7mj4aqfscim2.cloudfront.net/proxy/fonts/museo/museosansrounded-500-webfont.svg#museo_sans_rounded500') format('svg');
@@ -26,7 +26,7 @@
       font-style: normal;
     }
     
-    @font-face {
+   @font-face {
       font-family: 'museo-sans-rounded';
       src: url('https://d7mj4aqfscim2.cloudfront.net/proxy/fonts/museo/museosansrounded-700-webfont.eot');
       src: url('https://d7mj4aqfscim2.cloudfront.net/proxy/fonts/museo/museosansrounded-700-webfont.eot?#iefix') format('embedded-opentype'), url('https://d7mj4aqfscim2.cloudfront.net/proxy/fonts/museo/museosansrounded-700-webfont.woff2') format('woff2'), url('https://d7mj4aqfscim2.cloudfront.net/proxy/fonts/museo/museosansrounded-700-webfont.woff') format('woff'), url('https://d7mj4aqfscim2.cloudfront.net/proxy/fonts/museo/museosansrounded-700-webfont.svg#museo_sans_rounded700') format('svg');
@@ -34,19 +34,19 @@
       font-style: normal;
     }
     
-    body {
+   body {
       -webkit-font-smoothing: antialiased;
       font: 500 15px "museo-sans-rounded", "Open Sans", sans-serif;
       color: #999999;
       margin: 0;
     }
     
-    .container{
+   .container{
       width:500px;
     	display:block;
     	margin:50px auto;
     }
-    .progress {
+   .progress {
     	overflow: hidden;
     	height: 20px;
     	background-color: #ccc;
@@ -55,32 +55,29 @@
     	box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
     		margin-bottom: 20px;
     }
-    .progress-bar {
+   .progress-bar {
     	width: 0;
     	height: 100%;
     	color: #fff;
     	text-align: center;
     	background-color: #7AC70C;
-    
-    	
-     
     }
-    .progress-striped .progress-bar {
+   .progress-striped .progress-bar {
     			background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
     			background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
     			background-size: 40px 40px;
     }
-    .progress.active .progress-bar {
+   .progress.active .progress-bar {
     	-webkit-animation: progress-bar-stripes 2s linear infinite;
     	animation: progress-bar-stripes 2s linear infinite;
     	-moz-animation: progress-bar-stripes 2s linear infinite;
     }
     
-    h1, h2, h3, h4, h5, h6 {
+   h1, h2, h3, h4, h5, h6 {
       color: black;
     }
     
-    .b {
+   .b {
       padding: 10px;
       text-decoration: none;
       border: none;
@@ -89,11 +86,11 @@
       color: white;
     }
     
-    .b:hover {
-      background-color: #BCE9FF;
-      color: #1CB0F6;
-    }
-    </style>
+   .b:hover {
+     background-color: #BCE9FF;
+     color: #1CB0F6;
+   }
+   </style>
   </head>
   <body>
   <center>
