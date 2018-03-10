@@ -84,7 +84,7 @@
       padding: 10px;
       text-decoration: none;
       border: none;
-      border-radius: 16px;
+      border-radius: 100px;
       background-color: #1CB0F6;
       color: white;
     }
