@@ -79,6 +79,20 @@
     h1, h2, h3, h4, h5, h6 {
       color: black;
     }
+    
+    .b {
+      padding: 10px;
+      text-decoration: none;
+      border: none;
+      border-radius: 16px;
+      background-color: #1CB0F6;
+      color: white;
+    }
+    
+    .b:hover {
+      background-color: #BCE9FF;
+      color: #1CB0F6;
+    }
     </style>
   </head>
   <body>
